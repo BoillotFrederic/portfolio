@@ -1,0 +1,180 @@
+@font-face
+{
+  font-family:greatvibes;
+  src:url('fonts/great-vibes/GreatVibes-Regular.otf');
+}
+
+h1
+{
+  font-family:greatvibes;
+  font-size:4em;
+}
+
+.blue
+{
+  color:blue;
+}
+
+.orange
+{
+  color:orange;
+}
+
+.red
+{
+  color:red;
+}
+
+body
+{
+  background-image:url(imgs/bg.png);
+  background-attachment:fixed;
+  text-align:center;
+}
+
+#content
+{
+  position:relative;
+  width:100%;
+  padding:10px 0 10px 0;
+}
+
+.divImgGroup
+{
+  width:200px;
+  height:200px;
+  display:inline-block;
+}
+
+#div1
+{
+  background-repeat:repeat;
+  background-size:80px;
+  background-image:url('imgs/background1.png');
+}
+#div2
+{
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-image:url('imgs/background2.png');
+}
+#div3
+{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-image:url('imgs/background3.png');
+  background-position:bottom right;
+}
+
+a
+{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+
+img
+{
+  border:none;
+  width:50px;
+  height:50px;
+}
+
+table
+{
+  margin:0 auto 0 auto;
+  border-collapse:collapse;
+}
+
+td
+{
+  width:100px;
+  height:100px;
+  border:1px solid black;
+  background-color:black;
+}
+
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd)
+{
+    background-color:white;
+}
+
+#bgAlpha
+{
+  background-color:rgba(255, 255, 255, 0.5);
+  position:fixed;
+  left:40%;
+  top:50%;
+  margin-left:-10px;
+  margin-top:-100px;
+  border:1px solid black;
+  text-align:left;
+  z-index:1;
+  text-transform:uppercase;
+}
+
+ul
+{
+  list-style:none;
+  text-align:center;
+  margin:85px 0 0 0;
+  padding:0;
+}
+
+.boutonStyle
+{
+  display:inline-block;
+  width:150px;
+  height:28px;
+  padding-top:4px;
+  font-size:1.2em;
+  border-radius:12px;
+}
+
+.bouton
+{
+  color:#8888FF;
+  border:1px solid grey;
+  background-color:#000030;
+  transition: all 0.5s linear;
+  box-shadow:1px 1px 10px #505080 inset;
+}
+
+.b1:hover, .b2:active
+{
+  color:white;
+  background-color:#0000FF;
+  transition: all 0.5s linear;
+  box-shadow:1px 1px 10px grey inset;
+}
+
+#bouton3
+{
+  display:inline-block;
+  width:150px;
+  height:28px;
+  padding-top:4px;
+  font-size:1.2em;
+  border-radius:12px;
+  color:black;
+  border:1px solid grey;
+  background-color:red;
+  background-image:linear-gradient(white, rgba(255, 255, 255, 0));
+  transition:background-color 0.5s linear;
+}
+#bouton3:hover
+{
+  border:1px solid grey;
+  background-color:#8888FF;
+  transition:background-color 0.5s linear;
+  transition:all 0.5s linear;
+}
+
+#bouton3:active
+{
+  border:1px solid grey;
+  background-color:#1111FF;
+  transition:background-color 0.5s linear;
+  transition:all 0.5s linear;
+}

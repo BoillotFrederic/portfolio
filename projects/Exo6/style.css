@@ -1,0 +1,26 @@
+div
+{
+  width:100px;
+  height:100px;
+  float:left;
+}
+
+#div1
+{
+  background-color:#EE7D20;
+}
+#div2
+{
+  margin-top:20px;
+  background-color:#EEB120;
+}
+#div3
+{
+  margin-top:40px;
+  background-color:#273DAE;
+}
+#div4
+{
+  margin-top:60px;
+  background-color:#138F8F;
+}

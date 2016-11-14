@@ -1,0 +1,310 @@
+/* Chargement des fonts */
+@font-face
+{
+  font-family:BEARHUGSBYRATTICSASSIN;
+  src:url('../fonts/BEARHUGSBYRATTICSASSIN-Regular.ttf');
+}
+@font-face
+{
+  font-family:bkobiii;
+  src:url('../fonts/bkobiii.ttf');
+}
+@font-face
+{
+  font-family:Bungasai;
+  src:url('../fonts/Bungasai.ttf');
+}
+@font-face
+{
+  font-family:MidnightConstellations;
+  src:url('../fonts/MidnightConstellations.ttf');
+}
+
+/* Comportement de la page */
+html, body
+{
+  height:100%;
+  background-color:#D4B67B;
+}
+body
+{
+  display:table;
+  width:100%;
+  min-width:950px;
+  overflow-x:hidden;
+}
+*
+{
+  margin:0;
+  padding:0;
+}
+
+/* En-tête de page */
+header
+{
+  font-family:BEARHUGSBYRATTICSASSIN;
+  background-color:#788937;
+  width:100%;
+  height:150px;
+  text-align:center;
+  background-image:url('../images/logo2.png');
+  background-size:220px 150px;
+  background-position:right center;
+  background-repeat:no-repeat;
+  border-bottom:1px solid #000000;
+}
+
+header h1
+{
+  width:100%;
+  padding:10px;
+}
+
+/* Menu */
+#menuBar
+{
+  list-style:none;
+  font-size:3em;
+}
+#menuBar li
+{
+  display:inline;
+}
+#menuBar a
+{
+  display:inline-block;;
+  text-decoration:none;
+  color:white;
+  margin:30px 20px 0 20px;
+  transition:text-shadow 0.5s;
+}
+#menuBar a:hover
+{
+  text-shadow:0 0 10px white;
+  transition:text-shadow 0.2s;
+}
+
+/* Les arrières plans */
+#backGround
+{
+  display:table-row;
+  position:relative;
+  background-image:url('../images/cityFlower.jpg');
+  background-size:cover;
+  height:100%;
+}
+#backGroundP2
+{
+  display:table-row;
+  background-image:url('../images/wood1.jpg');
+  height:100%;
+}
+#backGroundP2 hr
+{
+  clear:both;
+  height:40px;
+  visibility:hidden;
+}
+#backGroundP3
+{
+  display:table-row;
+  background-image:url('../images/wood4.png');
+  height:100%;
+}
+#backGroundP4
+{
+  display:table-row;
+  background-image:url('../images/patternMosa9.gif');
+  height:100%;
+}
+#backGroundP3 h2, #backGroundP3 h3
+{
+  text-align:center;
+  font-size:2.5em;
+  margin-bottom:15px;
+  font-family:MidnightConstellations;
+}
+
+/* Message d'accueil */
+#homeBox
+{
+  font-family:bkobiii;
+  margin:100px auto 0 auto;
+  width:650px;
+  height:300px;
+  border:1px solid black;
+  vertical-align:center;
+  background-color:rgba(166, 0, 0, 0.8);
+  padding:5px;
+  color:white;
+  font-size:1.5em;
+}
+
+#homeBox h2
+{
+  text-align:center;
+  margin:10px 0 20px 0;
+}
+#homeBox a
+{
+  text-align:justify;
+  display:block;
+  margin:30px auto 0 auto;
+  text-align:center;
+  width:200px;
+  border:1px solid #000000;
+  padding:10px;
+  background-color:white;
+  color:black;
+  text-decoration:none;
+  transition:all 0.2s;
+}
+#homeBox a:hover
+{
+  background-color:#788937;
+  color:white;
+}
+
+/* Les produits */
+.items
+{
+  font-family:Bungasai;
+  float:left;
+  border:1px solid black;
+  width:23%;
+  height:450px;
+  margin:50px 0 0 1.5%;
+  font-size:1em;
+  text-align:justify;
+  background-color:rgba(255, 255, 255, 0.5);
+  overflow:hidden;
+}
+.items a
+{
+  color:black;
+  text-decoration:none;
+}
+.items img
+{
+  border:none;
+  display:block;
+  width:95%;
+  height:250px;
+  margin:5px auto 5px auto;
+}
+.items p
+{
+  padding:5px;
+}
+.itemsNoSaison
+{
+  background-color:rgba(150, 150, 150, 0.5);
+}
+
+/* Les articles */
+#news
+{
+  text-align:justify;
+  padding:10px;
+  font-family:Bungasai;
+}
+#news div
+{
+  margin-bottom:50px;
+}
+#news img
+{
+  width:300px;
+  height:300px;
+  border:1px solid black;
+}
+#news div:nth-child(odd) img
+{
+  float:left;
+}
+#news div:nth-child(even) img
+{
+  clear:both;
+  float:right;
+}
+#news div:nth-child(odd) div
+{
+  margin:0 0 0 305px;
+}
+#news div:nth-child(even) div
+{
+  margin:0 305px 0 0;
+}
+
+/* Formulaire */
+#contactLeft
+{
+  background-color:rgba(255, 255, 255, 0.8);
+  border:1px solid black;
+  width:45%;
+  height:420px;
+  margin:20px 0 0 2%;
+  float:left;
+  padding:10px;
+}
+#contactRight
+{
+  width:45%;
+  height:420px;
+  margin:20px 2% 0 0;
+  float:right;
+}
+#contactLeft input[type="text"]
+{
+  width:100%;
+  height:30px;
+  border:1px solid black;
+}
+#contactLeft input[type="submit"]
+{
+  display:block;
+  width:100px;
+  height:30px;
+  margin:10px auto 0 auto;
+}
+#contactLeft textarea
+{
+  width:100%;
+  height:80px;
+  border:1px solid black;
+}
+#contactRight
+{
+  line-height:30px;
+}
+#mapDiv
+{
+  background-color:black;
+  width:100%;
+  height:320px;
+}
+
+/* Profile des produits */
+#prodFile
+{
+  font-family:Bungasai;
+  text-align:center;
+  color:white;
+  padding:10px;
+}
+#prodFile h2
+{
+  font-size:2em;
+  margin-bottom:30px;
+}
+#prodFile p
+{
+  text-align:justify;
+  margin-left:510px;
+}
+#prodFile img
+{
+  width:500px;
+  height:500px;
+  float:left;
+}

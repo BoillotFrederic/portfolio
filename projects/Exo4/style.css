@@ -1,0 +1,88 @@
+body
+{
+  background-color:#222222;
+  text-align:center;
+}
+
+h1
+{
+  color:darkblue;
+  text-shadow:5px 5px 8px black;
+  text-align:center;
+}
+
+#exo1
+{
+  text-align:justify;
+  height:50px;
+  width:50%;
+  overflow:hidden;
+  margin:0 auto 150px auto;
+}
+#exo1:hover
+{
+  overflow:visible;
+}
+
+#exo2 ul li:nth-child(2),
+#exo2 ul li:nth-child(4)
+{
+  list-style:square;
+  color:green;
+}
+#exo3 img
+{
+  float:right;
+  width:50%;
+}
+#exo4
+{
+  clear:both;
+  border:2px solid beige;
+  border-collapse:collapse;
+  width:100%;
+}
+#exo4 th
+{
+  background-color:darkblue;
+  color:white;
+  font-weight:bold;
+  text-decoration:underline;
+}
+#exo4 th, #exo4 td
+{
+  border:2px solid beige;
+  width:50px;
+  height:50px;
+}
+#exo4 tbody tr:nth-child(even)
+{
+  background-color:beige;
+}
+#exo5 div
+{
+  border:1px solid black;
+  margin-bottom:10px;
+}
+#exo5 .divGroup
+{
+  width:70%;
+  height:205px;
+}
+#exo5 h2
+{
+  font-family:sans-serif;
+  text-decoration:overline;
+}
+#exo5 img
+{
+  height:205px;
+  width:200px;
+  float:left;
+}
+#exo5 #div6
+{
+  width:30%;
+  height:400px;
+  float:right;
+}
